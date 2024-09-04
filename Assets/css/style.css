@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Assistant ;
+    src: url(/Assets/fonts/Assistant.ttf);
+}
+
+body{
+    font-family: Assistant, Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    color: #282c3f;
+    font-size: 14px;
+    height: 80px;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+    line-height: 80px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.fs-12{font-size: 12px;}
+.fw-400{font-weight: 400;}
+.text-orange{color: #ec7575;}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.text{
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.dropdown:hover >
+.dropdown-menu{
+    top: 88px;
+    border: none;
+    z-index: -1;
+    display: block;
+    border-radius: 0px;
+    transition: all ease-in 1s;
+    box-shadow: 0px 0px 0.2px #474646;
+}
+.dropdown-menu
+.dropdown-item{
+    padding: 0px;
+    font-size: 15px;
+    height: 25px;
+    font-weight: 500;
+    font-weight: normal;
+}
+.dropdown-menu
+.dropdown-item:hover{
+    font-weight: 700;
+    background: none;
+}
+.dropdown-menu
+.dropdown-item.list-head{
+    font-weight: 700;
+}
+   
+
+ 
